@@ -1,0 +1,37 @@
+/* ბოდიში რაც არის ყველაფერს 0 აქვს მარჯინი გარდა იმისა რასაც ჩვენ თითონ დავუწერთ */
+body {
+    margin: 0;
+}
+/* ყველა ანორდერ ლისტს აქვს padding 0, margin-top 10, width 100% */
+ul {
+  padding: 0;
+  margin-top:10px;
+  width: 100%;
+}
+/* ყველა ლისტი არის inline */
+li {
+  display: inline;
+}
+
+
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 1%;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  width:31%;
+  color: rgb(66, 248, 0);
+  background-color: rgb(0, 0, 0);
+
+}
+
+/* h1-ის ტექსტი იყოს მწვანე ფერის, ბექრაუნდად შავი და პადინგი 20 პიქსელი */
+h1{
+    color:rgb(30, 255, 0);
+    background-color: black;
+    padding: 20px;
+
+}
